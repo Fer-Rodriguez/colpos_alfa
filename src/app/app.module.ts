@@ -22,7 +22,11 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+
+import { DanielMMComponent } from './daniel-mm/daniel-mm.component';
+
 import { VictorManceraComponent } from './victor-mancera/victor-mancera.component';
+
 
 @NgModule({
   imports: [
@@ -40,7 +44,11 @@ import { VictorManceraComponent } from './victor-mancera/victor-mancera.componen
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+
+    DanielMMComponent,
+
     VictorManceraComponent,
+
 
   ],
   providers: [],
