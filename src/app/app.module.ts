@@ -23,6 +23,10 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { AlexComponent } from './alex/alex.component';
+import { KarenComponent } from './karen/karen.component';
+import { DavidComponent } from './david/david.component';
+import { ItuComponent } from './itu/itu.component';
+
 
 @NgModule({
   imports: [
@@ -40,7 +44,13 @@ import { AlexComponent } from './alex/alex.component';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+
     AlexComponent,
+
+    KarenComponent,
+    DavidComponent,
+    ItuComponent,
+
 
   ],
   providers: [],
