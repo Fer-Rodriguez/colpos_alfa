@@ -28,6 +28,15 @@ import { DavidComponent } from './david/david.component';
 import { ItuComponent } from './itu/itu.component';
 
 
+import { ChavaComponent } from './chava/chava.component';
+
+import { DaduComponent } from './dadu/dadu.component';
+
+import { DanielMMComponent } from './daniel-mm/daniel-mm.component';
+
+import { VictorManceraComponent } from './victor-mancera/victor-mancera.component';
+
+
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -45,11 +54,21 @@ import { ItuComponent } from './itu/itu.component';
     AppComponent,
     AdminLayoutComponent,
 
+
+    ChavaComponent,
+
+    DaduComponent,
+
+    DanielMMComponent,
+
+    VictorManceraComponent,
+
     AlexComponent,
 
     KarenComponent,
     DavidComponent,
     ItuComponent,
+
 
 
   ],
