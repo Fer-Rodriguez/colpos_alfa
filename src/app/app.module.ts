@@ -23,6 +23,7 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { FtorreComponent } from './ftorre/ftorre.component';
+import { FrComponent } from './fr/fr.component';
 
 @NgModule({
   imports: [
@@ -41,6 +42,7 @@ import { FtorreComponent } from './ftorre/ftorre.component';
     AppComponent,
     AdminLayoutComponent,
     FtorreComponent,
+    FrComponent,
 
   ],
   providers: [],
