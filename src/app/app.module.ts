@@ -22,8 +22,25 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+
 import { FtorreComponent } from './ftorre/ftorre.component';
 import { FrComponent } from './fr/fr.component';
+
+import { AlexComponent } from './alex/alex.component';
+import { KarenComponent } from './karen/karen.component';
+import { DavidComponent } from './david/david.component';
+import { ItuComponent } from './itu/itu.component';
+
+
+import { ChavaComponent } from './chava/chava.component';
+
+import { DaduComponent } from './dadu/dadu.component';
+
+import { DanielMMComponent } from './daniel-mm/daniel-mm.component';
+
+import { VictorManceraComponent } from './victor-mancera/victor-mancera.component';
+
+
 
 @NgModule({
   imports: [
@@ -43,6 +60,23 @@ import { FrComponent } from './fr/fr.component';
     AdminLayoutComponent,
     FtorreComponent,
     FrComponent,
+
+
+    ChavaComponent,
+
+    DaduComponent,
+
+    DanielMMComponent,
+
+    VictorManceraComponent,
+
+    AlexComponent,
+
+    KarenComponent,
+    DavidComponent,
+    ItuComponent,
+
+
 
   ],
   providers: [],
