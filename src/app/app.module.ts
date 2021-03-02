@@ -23,6 +23,7 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { DavidComponent } from './david/david.component';
+import { ItuComponent } from './itu/itu.component';
 
 @NgModule({
   imports: [
@@ -41,6 +42,7 @@ import { DavidComponent } from './david/david.component';
     AppComponent,
     AdminLayoutComponent,
     DavidComponent,
+    ItuComponent,
 
   ],
   providers: [],
