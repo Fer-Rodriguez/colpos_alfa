@@ -24,6 +24,7 @@ import {
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { KarenComponent } from './karen/karen.component';
 import { DavidComponent } from './david/david.component';
+import { ItuComponent } from './itu/itu.component';
 
 @NgModule({
   imports: [
@@ -43,6 +44,7 @@ import { DavidComponent } from './david/david.component';
     AdminLayoutComponent,
     KarenComponent,
     DavidComponent,
+    ItuComponent,
 
   ],
   providers: [],
