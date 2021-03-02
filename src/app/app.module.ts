@@ -22,6 +22,9 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+
+import { ChavaComponent } from './chava/chava.component';
+
 import { DaduComponent } from './dadu/dadu.component';
 
 import { DanielMMComponent } from './daniel-mm/daniel-mm.component';
@@ -45,6 +48,9 @@ import { VictorManceraComponent } from './victor-mancera/victor-mancera.componen
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+
+    ChavaComponent,
+
     DaduComponent,
 
     DanielMMComponent,
