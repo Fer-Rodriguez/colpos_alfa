@@ -23,6 +23,7 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { KarenComponent } from './karen/karen.component';
+import { DavidComponent } from './david/david.component';
 
 @NgModule({
   imports: [
@@ -41,6 +42,7 @@ import { KarenComponent } from './karen/karen.component';
     AppComponent,
     AdminLayoutComponent,
     KarenComponent,
+    DavidComponent,
 
   ],
   providers: [],
