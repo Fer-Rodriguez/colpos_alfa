@@ -39,6 +39,7 @@ import { DaduComponent } from './dadu/dadu.component';
 import { DanielMMComponent } from './daniel-mm/daniel-mm.component';
 
 import { VictorManceraComponent } from './victor-mancera/victor-mancera.component';
+import { SahidComponent } from './sahid/sahid.component';
 
 
 
@@ -75,6 +76,7 @@ import { VictorManceraComponent } from './victor-mancera/victor-mancera.componen
     KarenComponent,
     DavidComponent,
     ItuComponent,
+    SahidComponent,
 
 
 
